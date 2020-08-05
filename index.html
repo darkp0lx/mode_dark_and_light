@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container-main">
+      <div class="container_social-media">
+        <div class="social-media_header">
+          <div class="social-media_header-data">
+            <div class="social-media_tittle">
+              <h2>Social Media Dashboard</h2>
+            </div>
+            <div class="social-media_followers">
+              <p>Total Followers: 23,004</p>
+            </div>
+          </div>
+          <div class="dark-mode">
+            Dark Mode
+            <button class="switch" id="switch">
+              <span><i class="far fa-sun"></i></span>
+              <span><i class="fas fa-moon"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="container_social-media_boxes">
+            <div class="social-media_box">
+              <div class="tittle">
+                <i class="fab fa-facebook-messenger"></i><span> @nathanf</span>
+              </div>
+              <div class="number">
+                <p>1987</p>
+              </div>
+              <div class="followers">
+                <p>Followers</p>
+              </div>
+              <div class="average">
+                <p>12 Today</p>
+              </div>
+            </div>
+            <div class="social-media_box">
+              <div class="tittle">
+                <i class="fab fa-youtube"></i><span> @nathanf</span>
+              </div>
+              <div class="number">
+                <p>1987</p>
+              </div>
+              <div class="followers">
+                <p>Followers</p>
+              </div>
+              <div class="average">
+                <p>12 Today</p>
+              </div>
+            </div>
+            <div class="social-media_box">
+              <div class="tittle">
+                <i class="fab fa-instagram"></i><span> @nathanf</span>
+              </div>
+              <div class="number">
+                <p>1987</p>
+              </div>
+              <div class="followers">
+                <p>Followers</p>
+              </div>
+              <div class="average">
+                <p>12 Today</p>
+              </div>
+            </div>
+            <div class="social-media_box">
+              <div class="tittle">
+                <i class="fab fa-github-alt"></i><span> @nathanf</span>
+              </div>
+              <div class="number">
+                <p>1987</p>
+              </div>
+              <div class="followers">
+                <p>Followers</p>
+              </div>
+              <div class="average">
+                <p>12 Today</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_over-view">
+        <div class="over-view-header">
+          <h2>Overview - Today</h2>
+        </div>
+        <div class="over-view-container-boxes">
+          <div class="raw">
+            <div class="over-view_box">
+              <div class="box_header">
+                <div class="box_header_tittle">
+                  Page Views
+                </div>
+                <div class="box_header_icon">
+                  <i class="fab fa-facebook-messenger"></i>
+                </div>
+              </div>
+              <div class="box_footer">
+                <div class="box_footer_number">
+                  87
+                </div>
+                <div class="box_footer_average">
+                  3%
+                </div>
+              </div>
+            </div>
+            <div class="over-view_box">
+              <div class="box_header">
+                <div class="box_header_tittle">
+                  Page Views
+                </div>
+                <div class="box_header_icon"><i class="fab fa-facebook-messenger"></i></div>
+              </div>
+              <div class="box_footer">
+                <div class="box_footer_number">
+                  87
+                </div>
+                <div class="box_footer_average">
+                  3%
+                </div>
+              </div>
+            </div>
+            <div class="over-view_box">
+              <div class="box_header">
+                <div class="box_header_tittle">
+                  Page Views
+                </div>
+                <div class="box_header_icon"><i class="fab fa-youtube"></i></div>
+              </div>
+              <div class="box_footer">
+                <div class="box_footer_number">
+                  87
+                </div>
+                <div class="box_footer_average">
+                  3%
+                </div>
+              </div>
+            </div>
+            <div class="over-view_box">
+              <div class="box_header">
+                <div class="box_header_tittle">
+                  Page Views
+                </div>
+                <div class="box_header_icon"><i class="fab fa-instagram"></i></div>
+              </div>
+              <div class="box_footer">
+                <div class="box_footer_number">
+                  87
+                </div>
+                <div class="box_footer_average">
+                  3%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="raw">
+            <div class="over-view_box">
+              <div class="box_header">
+                <div class="box_header_tittle">
+                  Page Views
+                </div>
+                <div class="box_header_icon"><i class="fab fa-instagram"></i>
+
+                </div>
+              </div>
+              <div class="box_footer">
+                <div class="box_footer_number">
+                  87
+                </div>
+                <div class="box_footer_average">
+                  3%
+                </div>
+              </div>
+            </div>
+            <div class="over-view_box">
+              <div class="box_header">
+                <div class="box_header_tittle">
+                  Page Views
+                </div>
+                <div class="box_header_icon"><i class="fab fa-github-alt"></i></div>
+              </div>
+              <div class="box_footer">
+                <div class="box_footer_number">
+                  87
+                </div>
+                <div class="box_footer_average">
+                  3%
+                </div>
+              </div>
+            </div>
+            <div class="over-view_box">
+              <div class="box_header">
+                <div class="box_header_tittle">
+                  Page Views
+                </div>
+                <div class="box_header_icon"><i class="fab fa-github-alt"></i></div>
+              </div>
+              <div class="box_footer">
+                <div class="box_footer_number">
+                  87
+                </div>
+                <div class="box_footer_average">
+                  3%
+                </div>
+              </div>
+            </div>
+            <div class="over-view_box">
+              <div class="box_header">
+                <div class="box_header_tittle">
+                  Page Views
+                </div>
+                <div class="box_header_icon"><i class="fab fa-youtube"></i></div>
+              </div>
+              <div class="box_footer">
+                <div class="box_footer_number">
+                  87
+                </div>
+                <div class="box_footer_average">
+                  3%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">HectorPaolo@webs</a>.
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <script src="https://kit.fontawesome.com/1327d1eae4.js" crossorigin="anonymous"></script>
+  <script src="/index.js"></script>
+</body>
+
+</html>
